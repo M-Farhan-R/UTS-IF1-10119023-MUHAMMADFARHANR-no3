@@ -12,7 +12,7 @@ package uts.if1.pkg10119023.muhammadfarhanr.no3;
  * NAMA              : Muhammad Farhan R 
  * KELAS             : IF1
  * NIM               : 10119023
- * Deskripsi Program : Menampilkan musisi dan genre music
+ * Deskripsi Program : Menampilkan musisi dan genre musicnya
  *
  */
 public class UTSIF110119023MUHAMMADFARHANRNo3 {
@@ -22,7 +22,7 @@ public class UTSIF110119023MUHAMMADFARHANRNo3 {
      */
     public static void main(String[] args) {
         Rnb a = new Rnb();
-        a.genreBlueas("Jimmy Hendrik");
+        a.genreBlues("Jimmy Hendrik");
         a.genreJazz("Chad Baker");
         
         Folk b = new Folk();

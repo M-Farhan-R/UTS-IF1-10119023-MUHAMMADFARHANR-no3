@@ -10,5 +10,5 @@ package uts.if1.pkg10119023.muhammadfarhanr.no3;
  * @author Muhammad Farhan R <farhan.10119023@mahasiswa.email.ac.id>
  */
 public interface Blues {
-    public void genreBlueas(String artistName);
+    public void genreBlues(String artistName);
 }

@@ -12,7 +12,7 @@ package uts.if1.pkg10119023.muhammadfarhanr.no3;
 public class Rnb extends MusicGenre implements Blues, Jazz{
 
     @Override
-    public void genreBlueas(String artistName) {
+    public void genreBlues(String artistName) {
         System.out.println(artistName+" adalah musisi Blues");
     }
 
