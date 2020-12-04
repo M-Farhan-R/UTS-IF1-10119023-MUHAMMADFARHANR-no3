@@ -11,6 +11,6 @@ package uts.if1.pkg10119023.muhammadfarhanr.no3;
  */
 public class HardCore extends Metal{
     public void genreBlackHardCore(String artistName){
-        System.out.println(artistName+" adalah musisi BlackHardCore");
+        System.out.println(artistName+" adalah musisi HardCore");
     }
 }

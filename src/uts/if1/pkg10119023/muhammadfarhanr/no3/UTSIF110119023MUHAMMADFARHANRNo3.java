@@ -12,7 +12,7 @@ package uts.if1.pkg10119023.muhammadfarhanr.no3;
  * NAMA              : Muhammad Farhan R 
  * KELAS             : IF1
  * NIM               : 10119023
- * Deskripsi Program : 
+ * Deskripsi Program : Menampilkan musisi dan genre music
  *
  */
 public class UTSIF110119023MUHAMMADFARHANRNo3 {
@@ -21,6 +21,38 @@ public class UTSIF110119023MUHAMMADFARHANRNo3 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        Rnb a = new Rnb();
+        a.genreBlueas("Jimmy Hendrik");
+        a.genreJazz("Chad Baker");
+        
+        Folk b = new Folk();
+        b.genreFolk("Bob Dylan");
+        
+        Rockability c = new Rockability();
+        c.genreRockability("Elvis Presley");
+        
+        HardRock d = new HardRock();
+        d.genreProgressiveRock("DreamTheater");
+        d.genrePopRock("Kiss");
+        
+        Metal e = new Metal();
+        e.genrePunk("MXPX");
+        e.genreHeavyMetal("METALLICA");
+        
+        Grindcore f = new Grindcore();
+        f.genreGrindcore("Mesin Tempur");
+        
+        DeathMetal g = new DeathMetal();
+        g.genreDeathMetal("JASAD");
+        
+        DeathCoreKepiting h = new DeathCoreKepiting();
+        h.genreDeathCoreKepiting("Revenge The Fate");
+        
+        BlackMetal i = new BlackMetal();
+        i.genreBlackMetal("Bahemoth");
+        
+        HardCore j = new HardCore();
+        j.genreBlackHardCore("HATEBREED");
     }
 
 }
